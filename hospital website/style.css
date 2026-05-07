@@ -1,0 +1,244 @@
+ *{
+    box-sizing:border-box;
+ }
+ body {
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: #eef5fb;
+    color: black;
+    line-height: 1.7;
+}
+
+.nav-menu {
+    background-color: #0a3d62;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+#main-container {
+    border: 0.08px solid rgb(248, 247, 247);
+}
+
+.main h1 {
+    font-size: 2rem;
+    color: #d6eaf8;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.main {
+    font-size: 1.15rem;
+    color: white;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url(images/hosptal.jpg);
+    background-size: cover;
+    background-position:center;
+
+}
+
+#main-content {
+    display: flex;
+    gap: 25px;
+    padding: 20px 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#rsidebar {
+    background-color: #fff;
+    width: 250px;
+    box-shadow: 1px 1px 1px #adb5bd;
+}
+
+.card, #rsidebar img, #lsidebar img {
+    background-color: #fff;
+    width: 250px;
+    box-shadow: 1px 1px 1px #adb5bd;
+}
+
+#lsidebar {
+    background-color: #fff;
+    width: 250px;
+    box-shadow: 1px 1px 1px #adb5bd;
+}
+
+.footer {
+    background-color: #061e36;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #d6eaf8;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid #48c9b0;
+    color: #48c9b0;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: serif;
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.about-banner {
+    background-image: url('images/surgery.avif');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin: 30px;
+}
+
+.about-banner h1 {
+    position: relative;
+    font-size: 2.5rem;
+    color: rgb(19, 17, 17);
+}
+
+.about-banner h2 {
+    position: relative;
+    color: solid black;
+    font-size: 2.1rem;
+    margin-top: 8px;
+}
+
+.about-section {
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-block {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.about-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #0a3d62;
+}
+
+.about-text p {
+    color: black;
+    margin-bottom: 12px;
+    max-width: 480px;
+    text-align: center;
+}
+
+.contact-section {
+    display: flex;
+    gap: 50px;
+    padding: 60px 80px;
+    flex-wrap: wrap;
+}
+
+.form {
+    flex: 1;
+    width:100%;
+    background-color: white;
+    padding: 35px;
+    margin-left:50px;
+}
+
+.form h3 {
+    font-size: 24px;
+    color: #0a3d62;
+}
+
+.form label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="date"],
+.form select,
+.form textarea {
+    width: 30%;
+    padding:14PX;
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: white;
+    outline: none;
+}
+
+.radio,
+.checkbox {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.radio input,
+.checkbox input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.form .button {
+    width: 100%;
+    margin-top:80px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    padding:10px 12px;
+    background-color: #0a3d62;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius:2px;
+}
+
+.form .button:hover {
+    background-color: #7c1010;
+}
